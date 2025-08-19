@@ -194,7 +194,7 @@
             bindings = <
                 &kp N1     &kp  N2     &kp N3       &kp N4      &kp N5          &kp N6     &kp  N7      &kp N8      &kp N9      &kp N0
                 &trans     &kp LEFT    &kp UP       &kp RIGHT   &mt LPAR LBKT   &mt RPAR RBKT &trans    &trans      &trans      &trans
-    &trans      &trans     &trans      &DOWN        &trans      &mt MINUS UNDER &kp HASH     &trans     &trans      &trans      &trans     &trans
+    &trans      &trans     &trans      &kp DOWN        &trans      &mt MINUS UNDER &kp HASH     &trans     &trans      &trans      &trans     &trans
                                        &trans       &trans      &mt SQT DQT     &trans     &trans       &trans
             >;
         };
