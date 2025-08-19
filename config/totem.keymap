@@ -184,7 +184,7 @@
             bindings = <
                   &kp Q     &kp W       &kp E         &kp R         &kp T       &kp Y          &kp U           &kp I      &kp O   &kp P
                   &kp A     &kp S       &kp D         &kp F         &kp G       &kp H          &kp J           &kp K      &kp L   &kp SEMI
-    &kp esc        &kp Z     &kp X       &kp C         &kp V         &kp B       &kp N          &kp M           &kp COMMA  &kp DOT &kp FSLH  &lt 1 RET
+    &kp ESC        &kp Z     &kp X       &kp C         &kp V         &kp B       &kp N          &kp M           &kp COMMA  &kp DOT &kp FSLH  &lt 1 RET
                                         &kp LCTRL   &kp LEFT_COMMAND        &kp RSHFT     &kp SPACE  &kp BSPC       &mt RET TAB
             >;
         };
