@@ -178,7 +178,7 @@
                                       ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 */
     keymap {
-        compatible = "zmk,keymap 
+        compatible = "zmk,keymap"; 
         base_layer {
             label= "BASE";
             bindings = <
