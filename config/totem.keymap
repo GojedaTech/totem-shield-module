@@ -184,8 +184,8 @@
             bindings = <
                   &kp Q     &kp W       &kp E         &kp R         &kp T       &kp Y       &kp U           &kp I      &kp O   &kp P
                   &kp A     &kp S       &kp D         &kp F         &kp G       &kp H          &kp J           &kp K      &kp L   &kp SEMI
-    &mt LCTRL ESC &kp Z     &kp X       &kp C         &kp V         &kp B       &kp N          &kp M           &kp COMMA  &kp DOT  &kp FSLH  &lt 3 RET
-                                        &mt LMETA TAB &caps_tdl     &spc_L0     &mm_ctrl_bspc  &caps_tdr       &kp RS(LMETA)
+    &mt ESC LCTRL &kp Z     &kp X       &kp C         &kp V         &kp B       &kp N          &kp M           &kp COMMA  &kp DOT  &kp FSLH  &lt 3 RET
+                                        &kp LCTRL   &kp LEFT_COMMAND        &kp RSHFT     &kp SPACE  &kp BSPC       &kp TAB
             >;
         };
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
