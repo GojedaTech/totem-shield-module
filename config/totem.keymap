@@ -184,18 +184,18 @@
             bindings = <
                   &kp Q     &kp W       &kp E         &kp R         &kp T       &kp Y          &kp U           &kp I      &kp O   &kp P
                   &kp A     &kp S       &kp D         &kp F         &kp G       &kp H          &kp J           &kp K      &kp L   &kp SEMI
-    &kp ESC        &kp Z     &kp X       &kp C         &kp V         &kp B       &kp N          &kp M           &kp COMMA  &kp DOT &kp FSLH  &lt 1 RET
-                                        &kp LALT   &kp LEFT_COMMAND        &kp RSHFT     &kp SPACE  &kp BSPC       &mt RET TAB
+    &lt 1 ESC        &kp Z     &kp X       &kp C         &kp V         &kp B       &kp N          &kp M           &kp COMMA  &kp DOT &kp FSLH  &lt 1 RET
+                                        &kp LALT   &kp LEFT_COMMAND        &kp LSHFT     &kp SPACE  &kp BSPC       &mt TAB RET
             >;
         };
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
         num_layer {
             label= "NUM";
             bindings = <
-                &kp N1     &kp  N2     &kp N3       &kp N4      &kp N5          &kp N6     &kp  N7      &kp N8      &kp N9      &kp N0
-                &trans     &kp LEFT    &kp UP       &kp RIGHT   &mt LPAR LBKT   &mt RPAR RBKT &trans    &trans      &trans      &trans
-    &trans      &trans     &trans      &kp DOWN        &trans      &mt MINUS UNDER &kp HASH     &trans     &trans      &trans      &trans     &trans
-                                       &trans       &trans      &mt SQT DQT     &trans     &trans       &trans
+                &kp N1     &kp  N2     &kp N3       &kp N4      &kp N5          &kp N6        &kp  N7       &kp N8      &kp N9      &kp N0
+                &trans     &kp LEFT    &kp UP       &kp RIGHT   &mt LBKT LPAR   &mt RBKT RPAR &trans     &trans      &trans      &trans
+    &trans      &trans     &trans      &kp DOWN     &trans      &kp MINUS       &kp EQUAL     &kp SQT     &trans      &trans      &trans     &trans
+                                       &trans       &trans      &trans     &trans        &trans     &trans
             >;
         };
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
